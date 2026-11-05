@@ -945,4 +945,4 @@ severity, and aircraft characteristics.
 
  **View the Dashboard on Tableau Public**  
 
-https://public.tableau.com/app/profile/daniel.owuor/viz/Book2_17660221749660/Dashboard2
+[dashboard](https://public.tableau.com/app/profile/daniel.owuor/viz/Book2_17660221749660/Dashboard2)

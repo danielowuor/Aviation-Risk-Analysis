@@ -706,7 +706,7 @@ manufacturer_data = df_clean[df_clean['Make'].isin(top_manufacturers)]
 
 # Calculate percentage of fatal accidents by manufacturer
 manufacturer_severity = manufacturer_data.groupby('Make').apply(
-    lambda x: (x['Severity.Category'] == 'Fatal').mean() * 200
+    lambda x: (x['Severity.Category'] == 'Fatal').mean() * 100
 ).sort_values()
 
 plt.figure(figsize=(12, 6))
